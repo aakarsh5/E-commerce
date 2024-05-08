@@ -1,0 +1,85 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  padding: 1vh;
+  background-color: rgb(48, 33, 33);
+  box-shadow: 0 1px 3px -2px rgb(211, 8, 8);
+}
+
+.navlogo {
+  margin-bottom: 0px;
+}
+
+.navlogo p {
+  color: rgb(248, 243, 243);
+  font-size: 2vh;
+  font-weight: 600;
+}
+
+.navitems {
+  display: flex;
+  color: white;
+  align-items: center;
+  list-style: none;
+  gap: 40px;
+  color: #626262;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.navitems li {
+  display: flex;
+  color: white;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  cursor: pointer;
+}
+
+
+.navitems hr {
+  border: none;
+  width: 80%;
+  height: 1px;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+.loginCart {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+}
+
+.loginCart button {
+  width: 127px;
+  margin-top: 5px;
+  height: 58px;
+  outline: none;
+  border: 1px solid #eae5f5;
+  font-size: 20px;
+  font-weight: 500;
+  background-color: rgb(185, 194, 198);
+  cursor: pointer;
+  border-radius: 50px;
+  color: white; /* Change button text color to white */
+  transition: all 0.3s ease; /* Add transition for smooth effect */
+}
+.loginCart button:active {
+  color: #650f0f;
+}
+
+.cartcount {
+  width: 22px;
+  height: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -35px;
+  margin-left: -55px;
+  border-radius: 11px;
+  font-size: 14px;
+  background-color: red;
+  color: white;
+}
